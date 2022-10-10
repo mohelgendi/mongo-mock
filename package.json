@@ -1,0 +1,40 @@
+{
+  "name": "node-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "@shelf/jest-mongodb",
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest"
+    }
+  },
+  "author": "mohelgendi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.3",
+    "@shelf/jest-mongodb": "^4.1.0",
+    "babel-jest": "^29.1.2",
+    "jest": "^29.1.2",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "http-status": "^1.5.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.6.5",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.20",
+    "ts-jest": "^29.0.3",
+    "winston": "^3.8.2"
+  }
+}
