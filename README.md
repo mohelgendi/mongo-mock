@@ -23,7 +23,7 @@ $ npm install
 $ npm run start
 
 
-# test w/ Jest
+# test w/ Jest (server has to be runing)
 $ npm run test
 
 ```
